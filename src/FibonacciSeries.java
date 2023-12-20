@@ -1,5 +1,3 @@
-package fibonacci;
-
 import java.util.ArrayList;
 
 public class FibonacciSeries {
@@ -15,14 +13,6 @@ public class FibonacciSeries {
        return fib;
        }
     }
-    public  static void main(String [] args){
-        System.out.println(fibonacciSeries(50));
-        System.out.println(memory.toString().toString());
-
-
-    }
-
-
 }
 class Numbers {
     public  Numbers(int key , long value)
